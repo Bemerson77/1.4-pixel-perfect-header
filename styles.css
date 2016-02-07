@@ -137,7 +137,9 @@ header h4 {
 }
 
 .page-body {
-  margin: 0 auto;
+  margin: 0 sauto;
+  font-family: 'Open Sans', helvetica, sans-serif;
+
 }
 
 
@@ -147,6 +149,8 @@ header h4 {
   display: inline-block;
   width: 50%;
   position: relative;
+  top: 50px;
+  left: 135px;
 
 }
 
@@ -171,16 +175,25 @@ header h4 {
 }
 
 .left-side-article h1 {
-  font-family: ;
-  font-size: 56px;
+  font-family: 'oswald';
+  font-size: 64px;
   text-transform: uppercase;
   font-weight: 400;
   margin: 0 auto;
+  position: relative;
+  left: 25px;
+  letter-spacing: -1px;
+  color: rgba(7, 53, 81, 1);
+}
 
+#header-line-two {
+  bottom: 24px;
+  letter-spacing: .2px;
 }
 
 .left-side-article p {
-  font-size: 12px;
+  font-size: 16px;
+
 
 }
 
@@ -192,6 +205,9 @@ header h4 {
   display: inline-block;
   width: 28%;
   position: relative;
+  left: 206px;
+  bottom: 120px;
+  height: 800px;
 }
 
 .side-bar-author-photo {
@@ -201,6 +217,7 @@ header h4 {
   width: 84px;
   border-radius: 100%;
   position: relative;
+  left: 98px;
 }
 
 .side-bar-author-photo::before {
