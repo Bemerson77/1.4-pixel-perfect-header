@@ -135,3 +135,99 @@ header h4 {
   font-size: 15px;
   letter-spacing: -1px;
 }
+
+.page-body {
+  margin: 0 auto;
+}
+
+
+/** left-side-article **/
+
+.left-side-article {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+
+}
+
+.article-author-link {
+  background: url('images/me-two.jpg');
+  background-size: cover;
+  height: 22px;
+  width: 22px;
+  border-radius: 100%;
+  position: relative;
+}
+
+.article-author-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(46, 118, 178, 0.7);
+  border-radius: 100%
+}
+
+.left-side-article h1 {
+  font-family: ;
+  font-size: 56px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 auto;
+
+}
+
+.left-side-article p {
+  font-size: 12px;
+
+}
+
+
+
+/** side-bar **/
+
+.side-bar {
+  display: inline-block;
+  width: 28%;
+  position: relative;
+}
+
+.side-bar-author-photo {
+  background: url('images/me-two.jpg');
+  background-size: cover;
+  height: 84px;
+  width: 84px;
+  border-radius: 100%;
+  position: relative;
+}
+
+.side-bar-author-photo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(46, 118, 178, 0.7);
+  border-radius: 100%
+}
+
+.ad-photo {
+  background: url('images/ad-photo.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 278px;
+  position: relative;
+}
+
+.ad-photo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(46, 118, 178, 0.7);
+}
