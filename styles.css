@@ -235,32 +235,95 @@ header h4 {
 
 .first-p {
   width: 615px;
-  left: 25.5px;
-  bottom: 13.5px;
   line-height: 175%;
+  left: 25.5px;
+  bottom: 15px;
+
 }
 
 .second-p {
   width: 615px;
   line-height: 175%;
   left: 25.5px;
+  bottom: 4px;
 }
 
 .second-p a {
   color: rgba(163, 178, 191, 1);
 }
 
-blockquote {
+
+.blockquote {
   color: rgba(14, 110, 179, 1);
-  font-size: 27px;
   position: relative;
-  border-left: 1.5px solid grey;
-  height: 57px;
+  border-left: 2px solid rgba(211, 211, 211, 1);
+  height: 56px;
+  left: -8px;
+  top: -10px;
 }
 
-blockquote p {
+ .blockquote p {
+  padding-left: 17px;
+  padding-top: 12px;
+  height: 30px;
+  font-size:27px;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+}
+
+.third-p {
+  width: 612px;
+  line-height: 175%;
+  left: 25.5px;
+  top: 1px;
+}
+
+.fourth-p {
+  width: 610px;
+  line-height: 175%;
+  left: 25.7px;
+  bottom: -13px;
+}
+
+.bottom-nav {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  top: 18px;
+  right: 11px;
+}
+
+.bottom-nav .button-background {
+  position: relative;
+  background-color: rgba(93, 104, 111, 1);
+  height: 30px;
+  width: 33px;
+  right: 13px;
+
+}
+
+.bottom-nav .button-caption {
+  font-size: 13px;
+
+}
+
+.bottom-nav li {
+  display: inline-block;
+}
 
 
+.bottom-nav i {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-nav button {
+  border: none;
+  color: white;
+  padding: 0;
+  height: 30px;
+  width: 158px;
 }
 
 
@@ -274,8 +337,8 @@ blockquote p {
   width: 28%;
   position: relative;
   left: 206px;
-  bottom: 120px;
-  height: 200px;
+  bottom: 160px;
+  height: 650px;
 }
 
 .side-bar-author-pic {
