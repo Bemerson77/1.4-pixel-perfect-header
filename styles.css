@@ -337,7 +337,7 @@ header h4 {
   width: 28%;
   position: relative;
   left: 206px;
-  bottom: 160px;
+  bottom: 139px;
   height: 650px;
 }
 
@@ -348,7 +348,8 @@ header h4 {
   width: 84px;
   border-radius: 100%;
   position: relative;
-  left: 98px;
+  left: 97px;
+  bottom: -35px;
 }
 
 .side-bar-author-pic::before {
@@ -368,6 +369,8 @@ header h4 {
   height: 300px;
   width: 278px;
   position: relative;
+  top: 93px;
+  left: -1px;
 }
 
 .ad-photo::before {
@@ -378,4 +381,67 @@ header h4 {
   left: 0;
   right: 0;
   background: rgba(46, 118, 178, 0.7);
+}
+
+.side-bar span {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  color: rgba(14, 110, 179, 1);
+  text-transform: uppercase;
+  bottom: -45px;
+  left: -45px;
+  letter-spacing: -1px;
+}
+
+.side-bar a {
+  text-decoration: none;
+  color: rgba(163, 178, 191, 1);
+  position: relative;
+  font-size: 13px;
+  top: 42px;
+}
+
+.instagram {
+  left: 72px;
+}
+
+.facebook {
+  left: 57px;
+}
+
+.twitter {
+  left: 42px;
+}
+
+.side-bar h3 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
+  color: rgba(14, 110, 179, 1);
+  position: relative;
+  text-transform: uppercase;
+  top: 120px;
+  letter-spacing: -0.5px;
+}
+
+.side-bar p {
+  position: relative;
+  font-size: 14px;
+  color: rgba(163, 178, 191, 1);
+  width: 290px;
+  top: 105px;
+  left: -1px;
+  line-height: 175%;
+
+}
+
+.ad-link {
+  display: inline;
+  text-decoration: underline;
+  text-align: right;
+  position: relative;
+  top: 54px;
+  left: 191px;
+
 }
