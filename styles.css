@@ -139,7 +139,7 @@ header h4 {
 .page-body {
   margin: 0 sauto;
   font-family: 'Open Sans', helvetica, sans-serif;
-
+  height: 1008px;
 }
 
 
@@ -154,16 +154,17 @@ header h4 {
 
 }
 
-.article-author-link {
+.article-author-pic {
   background: url('images/me-two.jpg');
   background-size: cover;
   height: 22px;
   width: 22px;
   border-radius: 100%;
   position: relative;
+  display: inline-block;
 }
 
-.article-author-link::before {
+.article-author-pic::before {
   content: "";
   position: absolute;
   top: 0;
@@ -175,7 +176,7 @@ header h4 {
 }
 
 .left-side-article h1 {
-  font-family: 'oswald';
+  font-family: 'oswald', sans-serif;
   font-size: 64px;
   text-transform: uppercase;
   font-weight: 400;
@@ -191,11 +192,78 @@ header h4 {
   letter-spacing: .2px;
 }
 
+.author-link {
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  bottom: 29px;
+  font-size: 13px;
+}
+
+.author-link span,
+.author-link a {
+  position: relative;
+
+}
+
+.author-link span {
+  color: rgba(14, 110, 179, 1);
+  left: 5px;
+  bottom: 4px;
+  letter-spacing:
+
+}
+
+.author-link span > span {
+  color: rgba(163, 178, 191, 1);
+  left: 8.5px;
+  bottom: -1px;
+
+}
+
+.author-link a {
+  color: rgba(163, 178, 191, 1);
+  left: 13.5px;
+  bottom: 3px;
+}
+
 .left-side-article p {
-  font-size: 16px;
+  position: relative;
+  font-size: 15px;
+}
+
+
+.first-p {
+  width: 615px;
+  left: 25.5px;
+  bottom: 13.5px;
+  line-height: 175%;
+}
+
+.second-p {
+  width: 615px;
+  line-height: 175%;
+  left: 25.5px;
+}
+
+.second-p a {
+  color: rgba(163, 178, 191, 1);
+}
+
+blockquote {
+  color: rgba(14, 110, 179, 1);
+  font-size: 27px;
+  position: relative;
+  border-left: 1.5px solid grey;
+  height: 57px;
+}
+
+blockquote p {
 
 
 }
+
+
 
 
 
@@ -207,10 +275,10 @@ header h4 {
   position: relative;
   left: 206px;
   bottom: 120px;
-  height: 800px;
+  height: 200px;
 }
 
-.side-bar-author-photo {
+.side-bar-author-pic {
   background: url('images/me-two.jpg');
   background-size: cover;
   height: 84px;
@@ -220,7 +288,7 @@ header h4 {
   left: 98px;
 }
 
-.side-bar-author-photo::before {
+.side-bar-author-pic::before {
   content: "";
   position: absolute;
   top: 0;
